@@ -26,7 +26,7 @@ Configured a zero-trust network boundary using VMware Virtual Network Editor:
 * **LAN Zone (VMnet2 - Host-Only):** `10.10.10.0/24` (Isolated internal network).
 * **FortiGate Gateway:** Successfully deployed as the bridge routing traffic between LAN (`10.10.10.1`) and WAN (`192.168.100.50`), confirmed via CLI static routing and successful DNS resolution.
 
-> ![FortiGate Interface](fortigate_interface_list.png) ve ![VMware Settings](vmware_nat_network_settings.png)
+> ![FortiGate Interface](fortigate_interface_list.png) ![VMware Settings](vmware_nat_network_settings.png)
 
 ### 2. Strict Firewall Policies & Traffic Forwarding
 Created stateful firewall policies allowing monitored traffic from LAN (Kali) to the Internet, ensuring NAT is active and all sessions are logged for analysis. Verified connectivity by pinging `8.8.8.8` directly from the isolated Kali instance through the FortiGate firewall.
