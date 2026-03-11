@@ -4,7 +4,7 @@
 **Focus Area:** Cloud Infrastructure, Network Security, GenAI Automation
 
 ## 🎯 Project Objective
-This project is built to demonstrate a practical, enterprise-grade approach to infrastructure security and incident response. By integrating an enterprise firewall (FortiGate) within an isolated VMware environment, simulating real-world attacks, and utilizing Generative AI (LLM) for automated log analysis via n8n, this lab acts as a fully functional **Mini AI-SOC (Security Operations Center)**.
+This project is built to demonstrate a practical approach to infrastructure security and incident response. By integrating an enterprise firewall (FortiGate) within an isolated VMware environment, simulating real-world attacks, and utilizing Generative AI (LLM) for automated log analysis via n8n, this lab acts as a fully functional **Mini AI-SOC (Security Operations Center)**.
 
 ## 🏗️ Architecture & Tech Stack
 
